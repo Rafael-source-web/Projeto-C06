@@ -11,7 +11,7 @@ public class Main {
         System.out.println("- Batman \n- Michael \n- O Diabo Veste Prada 2 \n- Django Livre");
         Filme filme = new Filme(teclado.nextLine());
 
-        System.out.println("Qual o tamanho do seu ingresso:");
+        System.out.println("Qual o tipo do seu ingresso:");
         System.out.println("- Meia \n- Inteira");
         Ingresso ingresso = new Ingresso(teclado.nextLine());
 
